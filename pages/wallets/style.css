@@ -1,0 +1,35 @@
+
+.leaft_bar {
+    background: linear-gradient(0.32deg, rgba(28, 35, 64, 0) -5.79%, #1C0F54 114.59%);
+
+    width: 230px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+
+
+    p {
+        text-transform: uppercase;
+        background: linear-gradient(271.88deg, #3887FE 4.26%, #3BA0FF 51.37%, #5FB2FF 99.01%);
+        -webkit-background-clip: text;
+
+        background-clip: text;
+        color: transparent;
+        font-family: Raleway;
+        width: 105px;
+        padding-block: 24px 0;
+
+
+        font-size: 24px;
+        line-height: 28.18px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        font-weight: 600;
+        border-bottom: 2px solid #1288E8;
+    }
+}

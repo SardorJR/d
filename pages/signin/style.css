@@ -1,0 +1,278 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wrap {
+    width: 1366px;
+    margin: 0 auto;
+    background: radial-gradient(63.88% 129.61% at 25.55% 31.91%, #20135C 0%, #140739 92.82%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+
+    height: 100vw;
+    border-radius: 8px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.sign {
+    background: #20135c9c ;/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vw;
+    
+
+}
+
+body {
+    overflow-y: hidden;
+}
+
+.dannie {
+
+    height:530px ;
+    width: 480px;
+    background:#20135c9c;
+
+    border-radius: 8px;
+    padding-block: 100px 0 ;
+    position: relative;
+    z-index: 11;
+    h2 {
+        font-family: Roboto;
+        font-size: 36px;
+        line-height: 42.19px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-block: 20px 0px;
+    }
+}
+
+.input-container {
+    position: relative;
+    width: 340px;
+    margin-block: 10px 0px;
+}
+
+.input-container input {
+    width: 380px;
+
+
+    height: 58px;
+    border-radius: 8px;
+    border: none;
+    background: #2E3558;
+    padding-inline: 60px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.5s ease;
+    margin-block: 10px 0
+}
+
+.input-container input:focus,
+.input-container input:hover {
+    border-bottom-color: #1288E8;
+
+}
+
+.email::placeholder {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-align: left;
+
+}
+
+.password::placeholder {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-align: left;
+
+}
+
+.input-label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #1288E8;
+    /* Начальный цвет */
+    transition: width 0.5s ease;
+    /* добавляем анимацию */
+}
+
+.input-container input:focus~.input-label,
+.input-container input:valid~.input-label {
+    width: 100%;
+    /* Расширяем линию при фокусе или когда поле не пустое */
+}
+
+.input-container:before {
+    content: url('/imgs/Group\ 6.png');
+    /* Путь к изображению */
+    position: absolute;
+    left: 10px;
+    /* Позиционирование изображения внутри инпута */
+    top: 84%;
+    transform: translateY(-50%);
+}
+
+.input-container::after {
+    content: url('/imgs/Group\ 6.png');
+    /* Путь к изображению */
+    position: absolute;
+    left: 10px;
+    /* Позиционирование изображения внутри инпута */
+    top: 34%;
+    transform: translateY(-50%);
+}
+
+.up {
+    width: 85px;
+    height: 42px;
+    top: 2145px;
+    left: 484px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+    background: linear-gradient(88.43deg, #2F3453 11.5%, #242845 76.7%);
+    border: 0;
+    color: #FFFFFF;
+}
+
+.in {
+    width: 85px;
+    height: 42px;
+    top: 2145px;
+    left: 484px;
+    gap: 0px;
+    border-radius: 8px;
+    background: linear-gradient(271.88deg, #3887FE 4.26%, #3BA0FF 51.37%, #5FB2FF 99.01%);
+    border: 0;
+    color: #FFFFFF;
+}
+.i {
+    width: 85px;
+    height: 42px;
+    top: 2145px;
+    left: 484px;
+    gap: 0px;
+    border-radius: 8px;
+    background: #bc14ff;
+    border: 0;
+    color: #FFFFFF;
+}
+.pol{
+    position: relative;
+    top: -230px;
+    left: -735px;
+    z-index: 12;
+}
+.pol2{
+    position: relative;
+    top: -330px;
+    left: -340px;
+}
+.pol3{
+    position: relative;
+    top: 30px;
+    left: -240px;
+}
+#pol {
+    animation-name: sway;
+    animation-duration: 3s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes sway {
+    0% { transform: rotate(-10deg); }
+    50% { transform: rotate(10deg); }
+    100% { transform: rotate(-10deg); }
+  }
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    padding-block: 50px 0;
+}
+
+.forgot {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16.41px;
+    text-align: left;
+    color: #5FB2FF;
+    padding-block: 70px 0;
+}
+
+.rigth {
+    padding-block: 185px 0;
+    box-sizing: border-box;
+
+    h3 {
+        font-family: Raleway;
+        font-size: 65px;
+        line-height: 84.53px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        text-transform: uppercase;
+        background: linear-gradient(271.88deg, #3887FE 4.26%, #3BA0FF 51.37%, #5FB2FF 99.01%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        border-bottom: 2px solid #1288E8;
+        /* border-bottom-width: 1px; */
+
+    }
+
+    p {
+        font-family: Roboto;
+        font-size: 20px;
+        line-height: 28.13px;
+        text-align: center;
+color: #FFFFFF;
+padding-block: 20px 0;
+    }
+    .watter{
+        position: relative;
+        img{
+            position: absolute;
+            right: -100px;
+            top: -335px;
+            z-index: 1;
+        }
+    }
+}
+
+.img1{
+    background: url('/imgs/Vector\ \(9\).png');
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+.img2{
+    background: url('/imgs/Vector\ \(10\).png');
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}

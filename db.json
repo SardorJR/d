@@ -1,0 +1,57 @@
+{
+  "users": [
+    {
+      "id": "0.057229082324036895",
+      "name": "sardor",
+      "surname": "Sardorov",
+      "email": "sardorjn@gmail.com",
+      "password": "7878"
+    },
+    {
+      "id": "0.4514953184642023",
+      "name": "sardor",
+      "surname": "Sardor",
+      "email": "sarorjn@gmail.com",
+      "password": "7777"
+    },
+    {
+      "id": "0.29280209152264125",
+      "name": "sardor",
+      "surname": "Sardor",
+      "email": "arorjn@gmail.com",
+      "password": "ssssssssssss"
+    },
+    {
+      "id": "0.16773189964165303",
+      "name": "sardor",
+      "surname": "Sardorov",
+      "email": "sssax@gmail.com",
+      "password": "wwdddddd"
+    }
+  ],
+  "cards": [
+    {
+      "id": "0.6918661822513692",
+      "userId": "0.057229082324036895",
+      "name": "sardor",
+      "currency": "Bitcoin",
+      "balance": "0"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "95301773929",
+      "userId": "0.057229082324036895",
+      "walletId": "0.6918661822513692",
+      "amount": "1000",
+      "category": "home",
+      "time": "27.05.2024",
+      "tm": "16:45:54",
+      "wallet": {
+        "name": "sardor",
+        "currency": "Bitcoin",
+        "balance": "1000"
+      }
+    }
+  ]
+}
